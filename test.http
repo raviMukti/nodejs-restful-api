@@ -1,0 +1,30 @@
+### Get All Todo
+GET http://localhost:3000
+
+### Create Todo
+POST http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "todo" : "Test"
+}
+
+### Update Todo
+PUT http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 3,
+    "todo" : "Node JS Restful API"
+}
+
+### Delete Todo
+DELETE  http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 3
+}
